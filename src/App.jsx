@@ -9,20 +9,24 @@ function App() {
 
   return (
     <>
-  <div class="flex-container">
+  <div className="flex-container">
     <div className="intro">
-      <h1>Hi! My name is Shani Su. </h1>
-    </div>
-    <div>
+      <h1 className="text">Hi! My name is Shani Su. </h1>
       <img src={personalPhoto} className="pfp"/>
     </div>
+    {/* <div className="love">
+    { <button onClick={() => setCount((count) => count + 1)}>
+      marc's love is {count} ❤️
+    </button> }
+    </div> */}
   </div>
 
-    <div className="love">
-        <button onClick={() => setCount((count) => count + 1)}>
-          marc's love is {count} ❤️
-        </button>
-      </div>
+
+  <div className="me">
+    <h1> 
+      I am currently a student at Stanford University majoring in computer science. I am a curious individual who is alwyas eager to learn new things. When I'm not exploring new ideas, I enjoy baking and playing the piano/guitar. I love making fresh, warm cookies and sharing with friends and family!
+    </h1>
+  </div>
     </>
   )
 }
