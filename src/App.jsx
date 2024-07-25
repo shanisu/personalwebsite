@@ -9,11 +9,16 @@ function App() {
 
   return (
     <>
+  <div class="flex-container">
+    <div className="intro">
+      <h1>Hi! My name is Shani Su. </h1>
+    </div>
     <div>
       <img src={personalPhoto} className="pfp"/>
     </div>
-      <h1>Hi! My name is Shani Su.</h1>
-      <div className="love">
+  </div>
+
+    <div className="love">
         <button onClick={() => setCount((count) => count + 1)}>
           marc's love is {count} ❤️
         </button>
